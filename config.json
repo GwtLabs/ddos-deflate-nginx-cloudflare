@@ -1,0 +1,9 @@
+{
+"ban_time":"600",
+"ban_when_n_connections":"150",
+"lines_to_analyse":"5000",
+"nginx_log_path":"/var/log/nginx/access.log",
+"interval_in_sec_considering_simultaneous_connections":"5",
+"nginx_dateformat":"d/M/Y H:i:s",
+"daemon_interval_in_sec":"5"
+}
