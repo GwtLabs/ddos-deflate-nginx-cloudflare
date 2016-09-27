@@ -49,7 +49,7 @@ install_d(){
   touch /etc/nginx/cloudflare_settings.conf
   sed -i '/http {/a include blacklisted_ips.conf; include cloudflare_settings.conf;' /etc/nginx/nginx.conf
   nginx -t
-  service nginx restart
+  service nginx reload
   echo "√ installed successfully"
   help_msg
 }
