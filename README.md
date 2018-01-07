@@ -57,12 +57,12 @@ example
 bash ddos-deflate.sh connections
 ```
 Detected 36 users in last 5s
-18 connections from x.x.x.xx
-12 connections from x.x.x.xx
-10 connections from x.x.x.xx
-8 connections from x.x.x.xx
-7 connections from x.x.x.xx
-7 connections from x.x.x.xx
+18 connections from x.x.x.x.x
+12 connections from x.x.x.x.x
+10 connections from x.x.x.x.x
+8 connections from x.x.x.x.x
+7 connections from x.x.x.x.x
+7 connections from x.x.x.x.x
 ...
 Total 126 requests has been made in last 5s
 [25.2req/sec]
