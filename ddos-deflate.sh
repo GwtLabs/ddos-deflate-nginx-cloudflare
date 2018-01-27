@@ -67,7 +67,7 @@ req_per_sec(){
 }
 
 autostart_add(){
-  (crontab -l 2>/dev/null; echo "@reboot $PWD/ddos-deflate.sh start") | crontab -
+  (crontab -l 2>/dev/null; echo "@reboot cd $PWD && bash ddos-deflate.sh start") | crontab -
   echo "√ added successfully"
 }
 
